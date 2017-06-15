@@ -29,9 +29,9 @@ var getWeather = function(location) {
       // Display Data
         //grab gif
          //graph gif
-    
+      
 	       $.ajax({
-             url: "//api.giphy.com/v1/gifs/search?q=" + weather.currently +  "&api_key=dc6zaTOxFJmzC",
+             url: "//api.giphy.com/v1/gifs/search?q=" + weather.currently + " weather" +  "&api_key=dc6zaTOxFJmzC",
                 type: "GET",
                 success: function(response) {
                     

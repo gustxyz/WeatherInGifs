@@ -1,3 +1,17 @@
+*{
+    font-family: 'Exo', sans-serif;
+
+}
+body{
+    background-image: url(../img/windows_xp_bliss-wide.jpg);
+}
+input{
+    width:100%;
+}
+img{
+    border-radius:30%;
+    width:90%;
+}
 main{
     display: flex;
     justify-content: center;
@@ -14,14 +28,14 @@ h4{
     
 }
 .gif-left{
-    width:60%;
-    border-radius:3%;
-    border-bottom-right-radius: 150%;
+ 
 }
 
 #data-wrap{
     background-color: rgba(214, 214, 214, 0.37);
     border-radius: 20px;
+    width:100%;
+    position: relative;
 }
 
 #gif-wrapper-left{
@@ -32,9 +46,6 @@ h4{
 }
 
 .gif-right{
-    width:60%;
-    border-radius:3%;
-    border-bottom-left-radius: 440px;
 }
 
 #gif-wrapper-right{
