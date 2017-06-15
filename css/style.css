@@ -2,22 +2,24 @@
     font-family: 'Exo', sans-serif;
 
 }
+div img{
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right:10px;
+    padding-left:10px;
+}
 body{
-    background-image: url(../img/windows_xp_bliss-wide.jpg);
+    background-image: url(../img/windows_xp_bliss-wide.jpg) ;
+ 
 }
 input{
     width:100%;
 }
 img{
-    border-radius:30%;
+    border-radius:10%;
     width:90%;
 }
-main{
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
-    
-}
+
 section{
     display: flex;
     justify-content: space-between;
@@ -37,23 +39,52 @@ h4{
     width:100%;
     position: relative;
     height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    
 }
 
 #gif-wrapper-left{
     width:60%;
     display: inline-flex;
-        flex-flow: column;
+    flex-direction: column;
     flex-wrap: wrap;
+}
+#gif-wrapper-left > img{
+    flex:1;
 }
 
 .gif-right{
 }
 
+.gif-mid{
+    width:35%;
+    
+}
+#gif-wrapper-mid{
+     display: -webkit-flex;
+   display: flex;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-flex-flow: column wrap;
+   flex-flow: column wrap;
+   -webkit-align-content: stretch;
+   align-content: stretch;
+}
+#gif-wrapper-mid > img{
+    flex:1;
+}
 #gif-wrapper-right{
     width:60%;
     display: inline-flex;
     flex-flow: column;
     flex-wrap: wrap-reverse;
+}
+#gif-wrapper-right > img{
+    flex:1;
 }
 button{
     width:50%;
