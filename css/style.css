@@ -1,0 +1,55 @@
+main{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+h4{
+    margin:0;
+    
+}
+.gif-left{
+    width:60%;
+    border-radius:3%;
+    border-bottom-right-radius: 150%;
+}
+
+#data-wrap{
+    background-color: rgba(214, 214, 214, 0.37);
+    border-radius: 20px;
+}
+
+#gif-wrapper-left{
+    width:60%;
+    display: inline-flex;
+        flex-flow: column;
+    flex-wrap: wrap;
+}
+
+.gif-right{
+    width:60%;
+    border-radius:3%;
+    border-bottom-left-radius: 440px;
+}
+
+#gif-wrapper-right{
+    width:60%;
+    display: inline-flex;
+    flex-flow: column;
+    flex-wrap: wrap-reverse;
+}
+button{
+    width:50%;
+    border-radius:10px;
+    background-color:white; 
+    margin-left: 25%;
+}
+button:hover{
+    color: white;
+    background-color: #c6c6c6; 
+}
